@@ -1,6 +1,5 @@
 const inquirer = require('inquirer');
-const database = require('./db')
-
+const database = require('./db'
 
 
 database.findAllEmloyees().then(tracker => {
